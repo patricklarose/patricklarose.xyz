@@ -24,7 +24,6 @@ main {
     background-image: url("images/background.webp");
 }
 
-
 .intro {
     height: 100vh;
     display: flex;
@@ -117,7 +116,7 @@ main {
     width: 100%;
     transform: scaleX(0);
     height: 1.4px;
-    bottom: 0;
+3    bottom: 0;
     left: 0;
     background-color: #8be9fd;
     transform-origin: bottom right;
