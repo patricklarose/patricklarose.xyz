@@ -32,7 +32,7 @@ html {
 }
 
 body {
-    background-color: #020200;
+    background-color: var(--background);
 }
 
 /* Main */
@@ -52,9 +52,9 @@ main {
 }
 
 #me-img {
-    border: 3px solid #efefef;
+    border: 3px solid var(--foreground);
     border-radius: 50%;
-    background-color: #020200;
+    background-color: var(--background);
 }
 
 .main-title {
@@ -75,7 +75,7 @@ main {
 
 .container p span.typed-text {
     font-weight: normal;
-    color: #8be9fd;
+    color: var(--cyan);
 }
 
 .container p span.cursor {
@@ -104,7 +104,7 @@ main {
 }
 
 .social-icons i {
-    color: #efefef;
+    color: var(--foreground);
     font-size: 1.5rem;
     margin: 0 10px;
 }
@@ -136,7 +136,7 @@ main {
     height: 1.4px;
     bottom: 0;
     left: 0;
-    background-color: #8be9fd;
+    background-color: var(--cyan);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
