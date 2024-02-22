@@ -119,6 +119,14 @@ main {
     text-decoration: none;
 }
 
+#email::before {
+    content: "📬 ";
+}
+
+#email:hover::before {
+    content: "📪 ";
+}
+
 /* Underline Animation */
 .email-hover {
     display: inline-block;
