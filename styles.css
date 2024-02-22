@@ -121,6 +121,9 @@ main {
 
 #email::before {
     content: "📬 ";
+    position: absolute;
+    right: 176px;
+    bottom: 0.5px;
 }
 
 #email:hover::before {
