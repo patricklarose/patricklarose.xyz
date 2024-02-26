@@ -64,6 +64,7 @@ main {
 }
 
 .container p {
+    margin: auto;
     font-weight: bold;
     letter-spacing: 0.1rem;
     text-align: center;
