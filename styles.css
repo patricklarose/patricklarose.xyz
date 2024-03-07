@@ -69,6 +69,7 @@ main {
     letter-spacing: 0.1rem;
     text-align: center;
     overflow: hidden;
+    line-height: 1.5;
 }
 
 .social-icons {
