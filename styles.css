@@ -96,12 +96,13 @@ main {
 
 #email {
     text-decoration: none;
+    font-weight: bold;
 }
 
 #email::before {
     content: "📬 ";
     position: absolute;
-    right: 176px;
+    right: 190px;
     bottom: 0.5px;
 }
 
