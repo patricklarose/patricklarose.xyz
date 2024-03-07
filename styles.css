@@ -137,4 +137,7 @@ main {
     .summary {
         width: 70%;
     }
+    .container p {
+        line-height: 1.3;
+    }
 }
